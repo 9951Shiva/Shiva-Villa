@@ -1,0 +1,622 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.table1{
+    width: 100%;
+    height: 50px;
+    float: left;
+    margin: auto;
+    border-bottom: solid 1px rgb(241, 241, 241);
+}
+.t1a{
+    width: 20%;
+    float: left;
+}
+.t1sub{
+    width: 90%;
+    margin: auto;
+}
+.t1a img{
+    width: 20%;
+    padding: 10px;
+    float: left;
+}
+.t1a a{
+    padding: 15px 0px;
+    float: left;
+    text-decoration: none;
+    color: gray;
+}
+.t1b{
+    width: 25%;
+    float: left;
+    border-left: 2px solid rgb(241, 241, 241);
+}
+.t1b img{
+    width: 13%;
+    padding: 8px;
+    margin: 0px 10px;
+    margin-left: 20px;
+    float: left;
+}
+.t1b a{
+    padding: 15px 0px;
+    float: left;
+    text-decoration: none;
+    color: gray;
+}
+.table1 a:hover{
+    color: aqua;
+    text-decoration: underline;
+}
+.t1c{
+    width: 20%;
+    float: right;
+}
+.t1c img{
+    padding: 5px;
+}
+.table2{
+    width: 100%;
+    height: 100px;
+    float: left;
+}
+.table2 .table2a{
+    width: 90%;
+    margin: auto;
+}
+.table2a h1{
+    padding: 10px;
+}
+.table2 .table2a .Villa h2{
+    width: 20%;
+    float: left;
+    padding: 10px;
+}
+.list ul{
+    list-style-type: none;
+    float: right;
+}
+.list ul li{
+    float: left;
+    padding: 20px;
+    font-size: large;
+    margin: 0px 10px;
+    color: rgb(38, 38, 38);
+}
+ul button{
+    padding: 15px;
+    margin: 5px;
+    font-size: large;
+    border-radius: 40px;
+    background-color: black;
+    color: aliceblue;
+}
+.list ul li:hover{
+    color: orangered;
+    text-decoration: underline;
+}
+ul button:hover{
+    color: orangered;
+}
+.table3{
+    width: 100%;
+    height: auto;
+    background-image: url(https://templatemo.com/templates/templatemo_591_villa_agency/assets/images/banner-01.jpg);
+    float: left;
+    background-repeat: no-repeat;
+}
+.table3 h1{
+    padding: 180px 20% 180px 20%;
+    font-size: 50px;
+    color: white;
+    line-height: 60px;
+}
+span{
+    background-color: bisque;
+    padding: 10px; 
+    font-size:large; 
+    margin-bottom: 50px;
+    color: rgb(0, 0, 0);
+}
+.table4{
+    width: 100%;
+    height: auto;
+    padding: 200px 75px;
+    float: left;
+}
+.table4 .t4a{
+    float: left;
+    width: 30%;
+    height: auto;
+    padding: 10px;
+}
+.t4a img{
+    width: 100%;
+    float: left;
+}
+.t4b{
+    width: 45%;
+    height: auto;
+    float: left;
+    padding: 0px 20px;
+}
+ .header{
+    padding: 0px 20px;
+ }
+ .t4b .header h1{
+    font-size: 40px;
+ }
+.t4b .section{
+    width: 90%;
+    height: auto;
+    margin: auto;
+}
+.t4b .section button{
+    width: 100%;
+    padding: 20px;
+    border: none;
+    border-bottom: 1px solid rgb(206, 206, 206);
+    text-align: left;
+}
+.t4b .section button a{
+    color: black;
+    text-decoration: none;
+    font-size: medium;
+}
+.t4b .section button a:hover{
+    color: #f35525;
+}
+.t4c{
+    width: 25%;
+    height: auto;
+    float: left;
+    padding: 10px;
+    margin: 0px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.t4c ul{
+    float: left;
+    padding: 10px;
+}
+.t4c ul li{
+    width: 100%;
+    padding: 20px 15px;
+    list-style: none;
+    float: left;
+    border-bottom: rgb(156, 156, 156);
+}
+.t4c ul li img{
+    width: 25%;
+    float: left;
+    margin-right: 10px;
+}
+.t4c ul li h2{
+    margin: 0%;
+    padding: 5px;
+}
+li span{
+    margin: 0%;
+    padding: 0px;
+    font-size: 15px;
+    color: gray;
+    background-color: white;
+}
+.table5{
+    width: 100%;
+    height: auto;
+    background-image: url("	https://templatemo.com/templates/templatemo_591_villa_agency/assets/images/video-bg.jpg");
+    background-repeat: no-repeat;
+    float: left;
+}
+.table5 .table5sub{
+    width: 95%;
+    margin: auto;
+    padding: 100px;
+}
+.t5a{width: 50%;
+margin: auto;}
+.table5sub p{
+    text-align: center;
+    font-size: large;
+    padding: 0px;
+    margin: 0%;
+    color: orangered;
+}
+.table5sub h1{
+    text-align: center;
+    margin-bottom: 50px;
+    color: white;
+}
+.table5 .t5b{
+    width: 100%;
+}
+.t5b img{
+    width: 100%;
+    align-items: center;
+    border-radius: 20px;
+}
+.table6{
+    float: left;
+    width: 100%;
+    height: auto;
+    margin-bottom: 50px;
+}
+.table6 .t6a{
+    float: left;
+    width: 33%;
+    height: auto;
+    margin: auto;
+}
+.t6a .t6asub{
+    float: left;
+    width: 50%;
+    height: auto;
+    margin: auto 120px;
+    padding: 10px;
+    background-color: #ffeee9;
+    border-radius: 20px;
+}
+.t6asub h2{
+    float: left;
+    font-size: 40px;
+    margin: 0% 0% 0% 10px;
+    padding: 5px;
+    color: #f35525;
+
+}
+.t6asub p{
+    float: left;
+    font-weight: 600;
+    line-height: 25px;
+    margin: 0px 20px;
+    padding: 5px;
+}
+.table7{
+    float: left;
+    width: 100%;
+    height: auto;
+    background-color: #fafafa;
+    padding: 0px 100px;
+}
+.table7 p{
+    float: left;
+    font-size: 35px;
+    font-weight: 800;
+    line-height: 50px;
+    margin: 0px;
+}
+.table7 .t7b{
+    width: 50%;
+    float: right;
+    padding: 20px;
+    align-items: center;
+}
+.t7b button{
+    padding: 15px 20px;
+    align-items: center;
+    margin: 15px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    font-size: larger;
+}
+.table8{
+    width: 100%;
+    height: auto;
+    float: left;
+    padding: 100px;
+    background-color: #fafafa;
+}
+.t8a{
+    float: left;
+    width: 25%;
+    height: auto;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.t8a ul{
+    padding: 10px;
+    margin: 0%;
+}
+.t8a ul li span{
+    float: right;
+    font-size: 25px;
+    color: black;
+    font-weight: 600;
+}
+.t8a ul li{
+    padding: 25px;
+    list-style-type: none;
+}
+.t8b{
+    float: left;
+    width: 40%;
+    margin: 0px 35px;
+}
+.t8c{
+    width: 29%;
+    height: auto;
+    float: left;
+}
+.t8c p{
+    color: gray;
+    line-height: 30px;
+    font-size: medium;
+}
+.t8c button{
+    padding: 10px 20px;
+    border-radius: 40px;
+    background-color: black;
+    color: blanchedalmond;
+    font-size: large;
+}
+.table9{
+    float: left;
+    width: 100%;
+    height: auto;
+    padding: 70px;
+}
+.t9a{
+    width: 100%;
+    float: left;
+    height: auto;
+    text-align: center;
+}
+.t9a p{
+    font-size: 35px;
+    line-height: 40px;
+    font-weight: 600;
+    margin: 0%;
+    padding-bottom: 50px;
+}
+.t9b{
+    float: left;
+    width: 100%;
+    height: auto;
+}
+.property{
+    background-color: #fafafa;
+    padding: 30px;
+    width: 30%;
+    margin: 20px;
+    float: left;
+    border-radius: 20px;
+}
+.t9b .property img{
+    float: left;
+    width: 100%;
+}
+.t9b span{
+    float: left;
+    padding: 6px;
+    margin: 15px;
+    font-size: small;
+}
+.t9b h2{
+    float: right;
+    color: orangered;
+    margin: 0%;
+    padding: 15px;
+}
+.t9b a{
+    float: left;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
+.t9b ul{
+    float: left;
+    list-style-type: none;
+    padding: 0px;
+}
+.t9b ul li{
+    padding: 10px;
+    float: left;
+}
+.t9b ul li span{
+    float: right;
+    font-size: large;
+    font-weight: 500;
+    background-color: beige;
+    margin: 0%;
+    padding: 0%;
+}
+.t9b button{
+    padding: 10px 20px;
+    margin: 5px 25%;
+    font-size: large;
+    border-radius: 40px;
+    background-color: black;
+    color: aliceblue;
+    align-items: center;
+}
+.t9b button:hover{
+    color: orangered;
+}
+.table10{
+    width: 100%;
+    height: auto;
+    background-image: url("	https://templatemo.com/templates/templatemo_591_villa_agency/assets/images/contact-bg.jpg");
+    background-repeat: no-repeat;
+    float: left;
+}
+.table10 .t10a{
+    width: 80%;
+    margin: auto;
+    padding: 100px;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.t10a p{
+    text-align: center;
+    font-size: small;
+    padding: 0px;
+    margin: 0px;
+    font-weight: 600;
+    color: #f35525;
+}
+.t10a h1{
+    text-align: center;
+    margin: 0%;
+    color: white;
+    font-weight: 600;
+}
+.t10b{
+    float: left;
+    width: 100%;
+    padding: 0px 50px;
+}
+.first{
+    width: 55%;
+    height: auto;
+    float: left;
+}
+.first .first1 img{
+    width: 100%;
+    float: left;
+}
+.contact{
+    float: left;
+    width: 45%;
+    padding: 20px;
+    margin: 20px 15px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;}
+.contact img{
+    float: left;
+    width: 23%;
+}
+.contact p{
+    float: left;
+    line-height: 30px;
+    margin: 0%;
+    font-size: x-large;
+    font-weight: 600;
+    padding: 0px 10px;
+}
+.contact p span{
+    background-color: white;
+    padding: 0%;
+    font-size: small;
+    color: #c2c1c1;
+}
+.contact1{
+    float: left;
+    width: 45%;
+    padding: 20px;
+    margin: 20px 15px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;}
+.contact1 img{
+    float: left;
+    width: 25%;
+    margin: 5px;
+}
+.contact1 p{
+    float: left;
+    line-height: 30px;
+    margin: 0%;
+    font-size: x-large;
+    font-weight: 600;
+    padding: 0px 10px;
+}
+.contact1 p span{
+    background-color: white;
+    padding: 0%;
+    font-size: small;
+    color: #c2c1c1;
+}
+.second{
+    float: right;
+    width: 40%;
+    background-color: #fafafa;
+    border-radius: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.second p{
+    width: 100%;
+    float: left;
+    padding: 20px;
+    color: black;
+}
+.second p span{
+    float: left;
+    width: 95%;
+    background-color: rgb(212, 213, 213);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 30px;
+    color: gray;
+}
+.second p button{
+    padding: 10px 20px;
+    margin: 20px;
+    font-size: large;
+    border-radius: 40px;
+    background-color: black;
+    color: aliceblue;
+    align-items: center;
+}
+.table11{
+    width: 100%;
+    float: left;
+    padding: 30px 50px;
+    background-color: black;
+    color: white;
+    margin-top: 80px;
+    line-height: 40px;
+}
+@media (max-width:600px){
+    .table1{
+        display: none;
+    }
+    .table4,.table6,.table7,.table8, .table9,.table10, .first, .contact, .contact1, .t10a, .second p{
+        width: 100%;
+        height: auto;
+    }
+    .t4a, .t4b, .t4c, .t8a, .t8b, .t8c, .second{
+        width: 100%;
+        height: auto;
+        margin: 20px 0px;
+    }
+    .t6a,.table4 .t4a,.t4a img{
+        width: 100%;
+        height: auto;
+    }
+    .second{
+        float: left;
+    }
+    .t8b{
+        padding: 0%;
+        margin: 0%;
+    }
+    .t9b, .property{
+        width: 100%;
+        height: auto;
+        margin: 20px 0px;
+    }
+    .contact img, .contact1 img{
+        width: 15%;
+    }
+    .contact, .contact1{
+        margin: 25px 0px;
+    }
+}
+@media (max-width:600px){
+     .table6 .t6a{
+        width: 100%;
+        height: auto;
+        margin: 50px 10px;
+    }
+    .table7 .t7b{
+        width: 100%;
+        height: auto;
+        float: left;
+        padding: 0%;
+    }
+    .t7b .button{
+        float: left;
+    }
+}
